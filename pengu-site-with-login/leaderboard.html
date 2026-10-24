@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Leaderboard - Pengu Bot 2.0</title>
+<meta name="description" content="The top players in Pengu Bot 2.0: richest, highest level, biggest zoo, most hunts and most battle wins.">
+<meta name="theme-color" content="#d63f28">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&family=La+Belle+Aurore&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="config.js"></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body data-page="leaderboard">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="index.html"><img src="assets/logo.png" alt="" width="36" height="36"><span>Pengu Bot 2.0</span></a>
+<nav aria-label="Main"><a href="index.html">Home</a><a href="commands.html">Commands</a><a href="animals.html">Animals</a><a href="leaderboard.html" aria-current="page">Leaderboard</a></nav>
+<a class="btn" data-invite href="#">Add to Discord</a>
+</div></header>
+<main id="main">
+
+<div class="wrap">
+<div class="pagehead"><h1>Leaderboard</h1><p>The top players across every server. Players can hide themselves with <code>pengu privacy web off</code>.</p></div>
+<div class="tools"><input id="q" class="search" type="search" placeholder="Find a player on this board" aria-label="Find a player" autocomplete="off"></div>
+<div id="tabs" class="chips" role="group" aria-label="Choose a leaderboard"></div>
+<p id="count" class="count" aria-live="polite"></p>
+<div id="rows"><div class="notice">Loading the leaderboard...</div></div>
+</div>
+</main>
+<footer class="foot"><div class="wrap row">
+<div><strong>Pengu Bot 2.0</strong> &middot; a Discord gambling and games bot<br><span id="status" class="status">Loading data...</span></div>
+<nav aria-label="Footer"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="commands.html">Commands</a></nav>
+<div class="sm">Not affiliated with or endorsed by Discord.</div>
+</div></footer>
+</body>
+</html>

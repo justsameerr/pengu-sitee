@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Privacy - Pengu Bot 2.0</title>
+<meta name="description" content="What Pengu Bot 2.0 stores, why, and how to remove it.">
+<meta name="theme-color" content="#d63f28">
+<link rel="icon" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&family=La+Belle+Aurore&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<script src="config.js"></script>
+<script src="assets/app.js" defer></script>
+</head>
+<body data-page="privacy">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top"><div class="wrap bar">
+<a class="brand" href="index.html"><img src="assets/logo.png" alt="" width="36" height="36"><span>Pengu Bot 2.0</span></a>
+<nav aria-label="Main"><a href="index.html">Home</a><a href="commands.html">Commands</a><a href="animals.html">Animals</a><a href="leaderboard.html">Leaderboard</a></nav>
+<a class="btn" data-invite href="#">Add to Discord</a>
+</div></header>
+<main id="main">
+
+<div class="wrap prose">
+<div class="pagehead"><h1>Privacy</h1><p>Plain language, no tricks. Last updated for the current version of the bot.</p></div>
+<h2>What the bot stores</h2>
+<ul>
+<li>Your Discord user ID.</li>
+<li>Your game data: cowoncy and bank balance, animals, team, gems, weapons, level and XP, daily streak, quest and achievement progress, expeditions, titles and badges.</li>
+<li>Who you are married to (their user ID), counters for gifs and emotes you send, and pet nicknames you choose.</li>
+<li>A wallpaper image, only if you upload one with the wallpaper command.</li>
+<li>Per-server settings an admin chooses: the prefix, disabled commands and family-friendly mode.</li>
+<li>Suggestions you send with the suggest command.</li>
+</ul>
+<h2>What the bot reads</h2>
+<p>The bot needs the Message Content permission to notice commands that start with its prefix. It also gives a small amount of XP for chatting. It does <strong>not</strong> store the text of your messages, except text you deliberately give it to keep, such as a suggestion or a pet nickname.</p>
+<h2>What the website shows</h2>
+<p>The leaderboard and player pages show your Discord username, avatar, level, title, badges and game stats if you are among the top players. The data is refreshed on a schedule, so changes appear after the next update. You can hide yourself at any time with <code>pengu privacy web off</code>, and your page disappears at the next update.</p>
+<h2>Other services</h2>
+<p>Some commands send a request to a public service: gifs for emotes and actions come from nekos.best and waifu.pics, meme images from memegen.link, definitions from dictionaryapi.dev, translations from MyMemory, and emoji pictures from public content networks. Only what the command needs (such as the text of a meme) is sent. This site loads your Discord avatar from Discord's own servers.</p>
+<h2>Removing your data</h2>
+<p>To have your game data deleted, ask the bot owner in <a data-support href="#">the support server</a> or in the server where you use the bot. Removing the bot from a server stops it reading messages there, but your game data stays until it is deleted.</p>
+<h2>Children</h2>
+<p>Discord requires users to be at least 13 (or the minimum age in their country). The bot does not knowingly collect data from anyone younger.</p>
+<p class="sm">This page explains how the bot works and is not legal advice.</p>
+</div>
+</main>
+<footer class="foot"><div class="wrap row">
+<div><strong>Pengu Bot 2.0</strong> &middot; a Discord gambling and games bot<br><span id="status" class="status">Loading data...</span></div>
+<nav aria-label="Footer"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="commands.html">Commands</a></nav>
+<div class="sm">Not affiliated with or endorsed by Discord.</div>
+</div></footer>
+</body>
+</html>
